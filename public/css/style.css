@@ -7,6 +7,10 @@
   margin: auto;
 }
 
+.table > thead > tr > th {
+  width: 200px;
+}
+
 path {
   -webkit-transition: fill 0.5s ease-out; /* For Safari 3.1 to 6.0 */
   transition: fill 0.5s ease-out;
