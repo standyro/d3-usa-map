@@ -1,0 +1,27 @@
+#map {
+  margin: 20px;
+}
+
+#map svg {
+  display: block;
+  margin: auto;
+}
+
+path {
+  -webkit-transition: fill 0.5s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: fill 0.5s ease-out;
+  stroke: #4DB6AC;
+  stroke-width: 0.5;
+}
+
+.dma {
+  fill: #009688;
+}
+
+.dma-highlight {
+  fill: #B2DFDB;
+}
+
+.dma:hover {
+  fill: #B2DFDB;
+}

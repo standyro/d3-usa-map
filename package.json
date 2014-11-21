@@ -1,0 +1,11 @@
+{
+  "name": "map-site",
+  "version": "0.0.1",
+  "description": "A socket polling for data and populating a USA DMA map",
+  "dependencies": {
+    "csv-parse": "0.0.6",
+    "express": "^4.10.2",
+    "lodash": "^2.4.1",
+    "socket.io": "^1.2.0"
+  }
+}

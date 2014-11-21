@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DMA Map</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/map-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-lg-9">
+        <div id="map"></div>
+      </div>
+      <div class="col-lg-3">
+        <table id="events" class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>DMA</th>
+              <th>Device Type</th>
+              <th>OS</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>
