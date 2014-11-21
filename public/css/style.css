@@ -11,6 +11,23 @@
   width: 200px;
 }
 
+.table > tbody > tr {
+  -webkit-transition: fill 0.5s ease-out;
+  transition: fill 0.5s ease-out;
+}
+
+.table > tbody > tr:first-child {
+  color: #3C5267 !important;
+}
+
+.table > tbody > tr:nth-last-child(1) {
+  color: #3C5267 !important;
+}
+
+.fade {
+  color: #eee;
+}
+
 path {
   -webkit-transition: fill 0.5s ease-out; /* For Safari 3.1 to 6.0 */
   transition: fill 0.5s ease-out;
